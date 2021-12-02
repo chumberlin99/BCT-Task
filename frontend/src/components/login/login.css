@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(43, 89, 107);
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+.loginContainer {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.emailContainer {
+  /* background-color: tomato; */
+}
+.passContainer {
+  /* background-color: rgb(71, 105, 255); */
+}
+.emailLabel {
+  color: white;
+}
+.passLabel {
+  color: white;
+}
+.emailErr {
+  color: red;
+  float: right;
+}
+.emailInput {
+  border: solid 1.5px rgb(29, 156, 156);
+  color: white;
+  background: transparent;
+  border-radius: 3.5px;
+  width: 280px;
+  height: 30px;
+}
+.passErr {
+  color: red;
+  float: right;
+}
+.passInput {
+  border: solid 1.5px rgb(29, 156, 156);
+  color: white;
+  background: transparent;
+  border-radius: 3.5px;
+  width: 280px;
+  height: 30px;
+}
+.loginBtnContainer {
+  /* background-color: violet; */
+}
+.loginBtn {
+  background-color: rgb(0, 184, 184);
+  color: rgb(255, 255, 255);
+  border: solid 2px rgb(17, 173, 173);
+  width: 290px;
+  height: 33px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.navSignp {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}

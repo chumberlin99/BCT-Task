@@ -1,0 +1,85 @@
+body {
+  /* display: flex; */
+  background-color: rgb(16, 64, 77);
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+.signupContainer {
+  display: inline-block;
+  /* margin: auto; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background-color: rgb(0, 255, 98); */
+  /* margin-left: 40%; */
+  /* margin-top: 40%; */
+}
+.nameContainer {
+}
+.nameLabel {
+  color: white;
+}
+.nameInput {
+  border: solid 1.5px rgb(29, 156, 156);
+  color: white;
+  background: transparent;
+  border-radius: 3.5px;
+  width: 280px;
+  height: 30px;
+}
+.nameErr {
+  color: red;
+  float: right;
+}
+
+.emailContainer {
+}
+.emailLabel {
+  color: white;
+}
+.emailInput {
+  border: solid 1.5px rgb(29, 156, 156);
+  color: white;
+  background: transparent;
+  border-radius: 3.5px;
+  width: 280px;
+  height: 30px;
+}
+.emailErr {
+  color: red;
+  float: right;
+}
+.passContainer {
+}
+.passLabel {
+  color: white;
+}
+.passInput {
+  border: solid 1.5px rgb(29, 156, 156);
+  color: white;
+  background: transparent;
+  border-radius: 3.5px;
+  width: 280px;
+  height: 30px;
+}
+.passErr {
+  color: red;
+  float: right;
+}
+.signupBtnContainer {
+}
+.signupBtn {
+  background-color: rgb(0, 184, 184);
+  color: white;
+  border: solid 2px rgb(17, 173, 173);
+  width: 290px;
+  height: 33px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.navLogin {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
